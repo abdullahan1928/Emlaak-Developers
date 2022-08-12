@@ -1,0 +1,22 @@
+.video-player {
+    margin-bottom: 30px;
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @media screen and (max-width: 768px) {
+        align-self: flex-start;
+    }
+
+    @media screen and (max-width: 576px) {
+        align-self: flex-start;
+    }
+
+    @media screen and (max-width: 480px) {
+        align-self: flex-start;
+    }
+
+    @media screen and (max-width: 320px) {
+        align-self: flex-start;
+    }
+}

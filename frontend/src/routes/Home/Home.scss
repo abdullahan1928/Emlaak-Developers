@@ -1,0 +1,26 @@
+.home-container {
+    align-items: center;
+
+    .welcome-msg {
+        font-size: 40px;
+        font-weight: bold;
+        color: goldenrod;
+        text-align: center;
+        text-transform: uppercase;
+
+        .welcome-logo {
+            text-align: center;
+            width: 100px;
+            height: 70px;
+            margin: 0px 10px;
+        }
+    }
+
+    .intro-para {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+}
