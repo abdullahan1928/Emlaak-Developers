@@ -6,10 +6,10 @@ const WhatsappBtn = () => {
     return (
         <FloatingWhatsApp
             phoneNumber="+923366364016"
-            accountName='Emlaak Marketing'
+            accountName='Emlaak Developers'
             avatar={EmlaakLogo}
             statusMessage='Typically replies within 1 hour'
-            chatMessage={'Hi,I am from Emlaak Marketing.\nHow can I help you?😊'}
+            chatMessage={'Hi,I am from Emlaak Developers.\nHow can I help you?😊'}
             placeholder={'Type your message here'}
             darkMode={true}
             allowClickAway={true}
