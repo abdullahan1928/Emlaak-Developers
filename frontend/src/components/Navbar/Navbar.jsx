@@ -1,5 +1,5 @@
 import "./Navbar.scss";
-import EmlaakLogo from "../../assets/EmlaakLogo.png";
+import EmlaakLogo from "../../assets/EmlaakPic.jpg";
 import { Link, Outlet } from "react-router-dom";
 
 const NAV_MENU = ["Home", "Blog", "Projects", "Videos", "About-Us", "Contact"];

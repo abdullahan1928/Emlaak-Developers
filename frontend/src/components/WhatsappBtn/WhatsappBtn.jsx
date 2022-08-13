@@ -1,6 +1,6 @@
 import './WhatsappBtn.scss'
 import FloatingWhatsApp from 'react-floating-whatsapp'
-import EmlaakLogo from "../../assets/EmlaakLogo.png";
+import EmlaakLogo from "../../assets/EmlaakLogo.jpg";
 
 const WhatsappBtn = () => {
     return (

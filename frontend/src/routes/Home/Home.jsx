@@ -1,5 +1,5 @@
 import './Home.scss'
-import EmlaakLogo from '../../assets/EmlaakLogo.png'
+import EmlaakLogo from '../../assets/EmlaakPng.png'
 import WhatsappBtn from '../../components/WhatsappBtn/WhatsappBtn'
 
 const Home = () => {
@@ -8,10 +8,10 @@ const Home = () => {
             <h2 className='welcome-msg'>
                 Welcome to
                 <img src={EmlaakLogo} alt="Emlaak Logo" className='welcome-logo' />
-                Marketing
+                Developers
             </h2>
             <p className='intro-para'>
-                Emlaak Marketing is an expert land advertising firm claims a group of profoundly experts and specialists to give the best venture counsel and land administrations to our significant customers.
+                Emlaak Developers is an expert land advertising firm claims a group of profoundly experts and specialists to give the best venture counsel and land administrations to our significant customers.
             </p>
             <WhatsappBtn />
         </div>
