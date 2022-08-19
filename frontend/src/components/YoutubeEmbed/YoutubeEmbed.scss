@@ -3,7 +3,17 @@
     margin-bottom: 30px;
     align-self: center;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 576px) {
         height: 250px;
     }
+
+    @media screen and (max-width: 480px) {
+        height: 200px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 200px;
+        height: 150px;
+    }
+
 }
