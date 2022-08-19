@@ -1,25 +1,33 @@
 .videos-gallery-container {
-    text-align: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
 
     .videos-gallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 10px;
-        margin-left: 70px;
-        margin-right: 70px;
-
+        margin-left: 10%;
+        margin-right: 10%;
 
         .video-container {
             position: relative;
-            cursor: pointer;
 
             .video-icon {
+                cursor: pointer;
                 position: absolute;
                 display: none;
-                top: 3.5em;
-                left: 11em;
+            }
+
+            .video-thumbnail {
+                cursor: pointer;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .video-title {
+                font-size: medium;
+                font-weight: bold;
             }
 
             &:hover {
@@ -39,24 +47,7 @@
     @media screen and (max-width: 576px) {
         .videos-gallery {
             grid-template-columns: repeat(1, 1fr);
-        }
-    }
-
-    @media screen and (max-width: 480px) {
-        .videos-gallery {
-            grid-template-columns: repeat(1, 1fr);
-        }
-    }
-
-    @media screen and (max-width: 320px) {
-        .videos-gallery {
-            grid-template-columns: repeat(1, 1fr);
-        }
-    }
-
-    @media screen and (max-width: 768px) {
-        .videos-gallery {
-            grid-template-columns: repeat(2, 1fr);
+            grid-column: auto;
         }
     }
 

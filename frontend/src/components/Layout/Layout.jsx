@@ -1,5 +1,6 @@
 import Navbar from '../Navbar/Navbar'
 import WhatsappBtn from '../WhatsappBtn/WhatsappBtn'
+import Footer from '../Footer/Footer'
 
 const Layout = ({ children }) => {
     return (
@@ -7,6 +8,7 @@ const Layout = ({ children }) => {
             <Navbar />
             <main>{children}</main>
             <WhatsappBtn />
+            <Footer />
         </>
     )
 }

@@ -2,7 +2,7 @@ import './YoutubeEmbed.scss';
 
 const YoutubeEmbed = ({ embedId }) => (
     <iframe
-        width="1130"
+        width="80%"
         height="500"
         src={`https://www.youtube.com/embed/${embedId}?autoplay=1`}
         frameBorder="0"

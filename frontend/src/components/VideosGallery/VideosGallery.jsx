@@ -24,6 +24,7 @@ const VideosGallery = ({ videos }) => {
                                 style={{
                                     display: item.snippet.resourceId.videoId === embedId ? "block" : "",
                                 }}
+                                onClick={() => handleClick(item.snippet.resourceId.videoId)}
                             />
                             <img
                                 src={item.snippet.thumbnails.medium.url}

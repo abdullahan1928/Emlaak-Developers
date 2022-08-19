@@ -14,6 +14,7 @@ const WhatsappBtn = () => {
             darkMode={true}
             allowClickAway={true}
             allowEsc={true}
+            className='whatsapp-btn'
         />
     )
 }
